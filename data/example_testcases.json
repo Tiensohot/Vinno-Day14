@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Thông tư 167/2012/TT-BTC có áp dụng cho hoạt động kiểm soát thủ tục hành chính nào?",
+    "expected_answer": "Thông tư này không áp dụng cho hoạt động kiểm soát thủ tục hành chính trong nội bộ của từng cơ quan hành chính nhà nước, giữa cơ quan hành chính nhà nước với nhau không liên quan đến việc giải quyết thủ tục hành chính cho cá nhân, tổ chức. Đồng thời, cũng không áp dụng cho hoạt động kiểm soát thủ tục xử lý vi phạm hành chính, thủ tục thanh tra và thủ tục hành chính có nội dung bí mật nhà nước.",
+    "type": "fact-check",
+    "difficulty": "easy",
+    "source_section": "Điều 1 - Phạm vi áp dụng"
+  },
+  {
+    "id": 2,
+    "question": "Cơ sở dữ liệu quốc gia về thủ tục hành chính hoạt động bao nhiêu giờ trong ngày?",
+    "expected_answer": "Cơ sở dữ liệu quốc gia hoạt động liên tục 24 giờ trong tất cả các ngày.",
+    "type": "fact-check",
+    "difficulty": "easy",
+    "source_section": "Điều 15 - Hoạt động của Cơ sở dữ liệu"
+  },
+  {
+    "id": 3,
+    "question": "Kinh phí thực hiện kiểm soát thủ tục hành chính tại các tỉnh do ngân sách nào chi trả?",
+    "expected_answer": "Kinh phí bảo đảm cho việc thực hiện kiểm soát thủ tục hành chính tại các tỉnh, thành phố trực thuộc Trung ương do ngân sách địa phương bảo đảm.",
+    "type": "fact-check",
+    "difficulty": "easy",
+    "source_section": "Điều 7 - Kinh phí"
+  },
+  {
+    "id": 4,
+    "question": "Tại sao Cục Kiểm soát thủ tục hành chính phải đề nghị điều chỉnh dữ liệu trong 10 ngày?",
+    "expected_answer": "Để đảm bảo dữ liệu thủ tục hành chính trên Cơ sở dữ liệu quốc gia là chính xác, đầy đủ và kịp thời. Nếu dữ liệu không chính xác, Cục phải đề nghị các đơn vị liên quan điều chỉnh, bổ sung, hoàn thiện dữ liệu trong thời hạn tối đa không quá 10 ngày làm việc để duy trì chất lượng của cơ sở dữ liệu.",
+    "type": "reasoning",
+    "difficulty": "medium",
+    "source_section": "Điều 13 - Quản lý dữ liệu"
+  },
+  {
+    "id": 5,
+    "question": "Nếu dữ liệu thủ tục hành chính nhập vào không chính xác, Cục Kiểm soát thủ tục hành chính xử lý ra sao?",
+    "expected_answer": "Cục Kiểm soát thủ tục hành chính Bộ Tư pháp đề nghị các đơn vị liên quan điều chỉnh, bổ sung, hoàn thiện dữ liệu thủ tục hành chính và gửi về Cục trong thời hạn tối đa không quá 10 ngày làm việc, kể từ ngày nhận được đề nghị.",
+    "type": "multi-hop",
+    "difficulty": "hard",
+    "source_section": "Điều 13 - Quản lý dữ liệu"
+  },
+  {
+    "id": 6,
+    "question": "Kế hoạch kiểm tra của Bộ Tư pháp được phê duyệt khi nào và phải gửi tới các địa phương trong bao lâu?",
+    "expected_answer": "Cục Kiểm soát thủ tục hành chính trình Bộ trưởng Bộ Tư pháp phê duyệt kế hoạch trước ngày 15 tháng 01 và gửi tới các Bộ, cơ quan, Ủy ban nhân dân cấp tỉnh trong thời hạn 05 ngày làm việc kể từ ngày phê duyệt.",
+    "type": "multi-hop",
+    "difficulty": "hard",
+    "source_section": "Điều 19 - Kế hoạch kiểm tra"
+  },
+  {
+    "id": 7,
+    "question": "Trong trường hợp kiểm tra đột xuất, tổ chức được kiểm tra có phải gửi báo cáo trước không?",
+    "expected_answer": "Không, trong trường hợp kiểm tra đột xuất, tổ chức, cá nhân được kiểm tra không phải gửi báo cáo trước.",
+    "type": "edge-case",
+    "difficulty": "medium",
+    "source_section": "Điều 18 - Kiểm tra đột xuất"
+  },
+  {
+    "id": 8,
+    "question": "Khi Cơ sở dữ liệu quốc gia được sửa chữa hoặc nâng cấp, phải làm gì?",
+    "expected_answer": "Trong trường hợp Cơ sở dữ liệu quốc gia được sửa chữa, khắc phục các sự cố hoặc nâng cấp, chỉnh sửa cần thông báo về việc tạm ngưng hoạt động của Cơ sở dữ liệu quốc gia theo quy định tại Điều 16 Nghị định số 64/2007/NĐ-CP.",
+    "type": "edge-case",
+    "difficulty": "medium",
+    "source_section": "Điều 15 - Hoạt động của Cơ sở dữ liệu"
+  },
+  {
+    "id": 9,
+    "question": "Thông tư 167/2012/TT-BTC có áp dụng cho tài sản mã hóa ở nước ngoài không?",
+    "expected_answer": "Tài liệu không cung cấp thông tin về tài sản mã hóa ở nước ngoài. Thông tư này chỉ đề cập đến thủ tục hành chính tại Việt Nam.",
+    "type": "adversarial",
+    "difficulty": "hard",
+    "source_section": "Không có"
+  },
+  {
+    "id": 10,
+    "question": "Ai là người phê duyệt kế hoạch kiểm tra của các tỉnh?",
+    "expected_answer": "Tài liệu không cung cấp thông tin rõ ràng về người phê duyệt kế hoạch kiểm tra của các tỉnh. Chỉ đề cập Bộ trưởng Bộ Tư pháp phê duyệt kế hoạch của Bộ Tư pháp.",
+    "type": "adversarial",
+    "difficulty": "hard",
+    "source_section": "Không có"
+  }
+]
