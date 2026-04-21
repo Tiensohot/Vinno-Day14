@@ -1,0 +1,259 @@
+{
+    "dataset_metadata": {
+      "name": "Legal_Golden_Dataset_VN",
+      "description": "Bộ dữ liệu gồm 50 câu hỏi - đáp chất lượng cao dựa trên các Thông tư, Nghị định, Nghị quyết của Chính phủ Việt Nam.",
+      "total_cases": 50
+    },
+    "test_cases": [
+      {
+        "id": 1,
+        "question": "Thông tư 15/2026/TT-BTC có áp dụng cho việc xác định nghĩa vụ thuế của tổ chức tham gia thị trường tài sản mã hóa không?",
+        "answer": "Thông tư này không áp dụng cho việc xác định nghĩa vụ thuế của các tổ chức tham gia thị trường tài sản mã hóa tại Việt Nam với ngân sách nhà nước [1]."
+      },
+      {
+        "id": 2,
+        "question": "Đối tượng nào phải áp dụng Thông tư hướng dẫn kế toán đối với thị trường tài sản mã hóa tại Việt Nam?",
+        "answer": "Thông tư này áp dụng đối với các tổ chức cung cấp dịch vụ tài sản mã hoá, tổ chức phát hành tài sản mã hoá, nhà đầu tư trong nước là tổ chức được thành lập và hoạt động theo quy định của pháp luật Việt Nam tham gia thị trường tài sản mã hóa tại Việt Nam [2]."
+      },
+      {
+        "id": 3,
+        "question": "Tổ chức cung cấp dịch vụ tài sản mã hóa ghi nhận doanh thu từ việc cung cấp dịch vụ lưu ký vào tài khoản nào?",
+        "answer": "Tổ chức cung cấp dịch vụ tài sản mã hoá ghi nhận doanh thu cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hoá, lưu ký tài sản mã hoá, cung cấp nền tảng phát hành tài sản mã hoá vào tài khoản “Doanh thu bán hàng và cung cấp dịch vụ” [3]."
+      },
+      {
+        "id": 4,
+        "question": "Tài sản mã hóa của khách hàng lưu ký tại tổ chức cung cấp dịch vụ có được tính là tài sản của tổ chức đó không?",
+        "answer": "Tài sản mã hóa của khách hàng lưu ký tại tổ chức cung cấp dịch vụ tài sản mã hóa không được ghi nhận là tải sản của tổ chức cung cấp dịch vụ mà được theo dõi chi tiết để phục vụ yêu cầu quản lý và thuyết minh trên báo cáo tài chính [3]."
+      },
+      {
+        "id": 5,
+        "question": "Hoạt động tự doanh tài sản mã hóa được hạch toán tương tự như hoạt động nào?",
+        "answer": "Tổ chức cung cấp dịch vụ tài sản mã hóa ghi nhận các khoản doanh thu, chi phí của hoạt động tự doanh tài sản mã hoá tương tự như hoạt động kinh doanh chứng khoán [3]. Việc áp dụng tương tự chỉ nhằm mục đích hạch toán kế toán, không đồng nghĩa coi tài sản mã hóa là chứng khoán [3]."
+      },
+      {
+        "id": 6,
+        "question": "Việc hạch toán hoạt động tự doanh tài sản mã hóa giống chứng khoán có đồng nghĩa với việc coi tài sản mã hóa là chứng khoán không?",
+        "answer": "Việc áp dụng tương tự chỉ nhằm mục đích hạch toán kế toán, không đồng nghĩa coi tài sản mã hóa là chứng khoán [3]."
+      },
+      {
+        "id": 7,
+        "question": "Tổ chức phát hành tài sản mã hóa có tính chất huy động vốn thì hạch toán ra sao?",
+        "answer": "Trường hợp tài sản mã hóa mang bản chất như huy động vốn thì hạch toán tương tự hoạt động vay vốn của doanh nghiệp [4]."
+      },
+      {
+        "id": 8,
+        "question": "Thông tư 15/2026/TT-BTC có hiệu lực thi hành kể từ thời điểm nào?",
+        "answer": "Thông tư này có hiệu lực kể từ ngày ký và áp dụng từ năm tài chính 2026 đến khi có quy định pháp luật sửa đổi, bổ sung hoặc thay thế [5]."
+      },
+      {
+        "id": 9,
+        "question": "Thông tư 167/2012/TT-BTC không áp dụng cho những hoạt động kiểm soát thủ tục hành chính nào?",
+        "answer": "Thông tư này không bao gồm hoạt động kiểm soát thủ tục hành chính trong nội bộ của từng cơ quan hành chính nhà nước, giữa cơ quan hành chính nhà nước với nhau không liên quan đến việc giải quyết thủ tục hành chính cho cá nhân, tổ chức [6]. Đồng thời, cũng không áp dụng cho hoạt động kiểm soát thủ tục xử lý vi phạm hành chính, thủ tục thanh tra và thủ tục hành chính có nội dung bí mật nhà nước [6]."
+      },
+      {
+        "id": 10,
+        "question": "Kinh phí thực hiện kiểm soát thủ tục hành chính tại các tỉnh do ngân sách nào chi trả?",
+        "answer": "Kinh phí bảo đảm cho việc thực hiện kiểm soát thủ tục hành chính tại các tỉnh, thành phố trực thuộc Trung ương do ngân sách địa phương bảo đảm [7]."
+      },
+      {
+        "id": 11,
+        "question": "Chi cho việc cập nhật dữ liệu thủ tục hành chính vào Cơ sở dữ liệu quốc gia có thuộc nội dung chi của Thông tư 167/2012/TT-BTC không?",
+        "answer": "Có, chi cho việc cập nhật dữ liệu thủ tục hành chính vào Cơ sở dữ liệu quốc gia về thủ tục hành chính, công bố, công khai thủ tục hành chính là một trong các nội dung chi được quy định [8]."
+      },
+      {
+        "id": 12,
+        "question": "Thủ trưởng cơ quan quy định mức chi như thế nào nếu chưa có văn bản quy định cụ thể của địa phương?",
+        "answer": "Thủ trưởng cơ quan, đơn vị quyết định mức chi căn cứ vào mức chi thực tế (có hoá đơn hợp pháp, hợp lệ) nhưng không vượt quá mức chi quy định tại Thông tư này, đảm bảo tiết kiệm, tránh lãng phí, trong phạm vi dự toán được giao và phải được thể hiện trong quy chế chi tiêu nội bộ của cơ quan, đơn vị [9]."
+      },
+      {
+        "id": 13,
+        "question": "Thời gian nào hàng năm các cơ quan kiểm soát thủ tục hành chính phải lập dự toán kinh phí?",
+        "answer": "Hàng năm, vào thời gian lập dự toán ngân sách nhà nước theo quy định của Luật Ngân sách Nhà nước, các cơ quan, đơn vị kiểm soát thủ tục hành chính có trách nhiệm xây dựng dự toán kinh phí [10]."
+      },
+      {
+        "id": 14,
+        "question": "Cơ sở dữ liệu quốc gia về thủ tục hành chính bao gồm những dữ liệu nào?",
+        "answer": "Dữ liệu thủ tục hành chính trên Cơ sở dữ liệu quốc gia bao gồm thủ tục hành chính, thủ tục giải quyết công việc và văn bản quy phạm pháp luật có quy định về thủ tục hành chính [11]."
+      },
+      {
+        "id": 15,
+        "question": "Cơ quan nào chịu trách nhiệm đăng tải dữ liệu thủ tục hành chính lên Cơ sở dữ liệu quốc gia?",
+        "answer": "Cục Kiểm soát thủ tục hành chính Bộ Tư pháp chịu trách nhiệm đăng tải các dữ liệu thủ tục hành chính được nhập vào Cơ sở dữ liệu quốc gia theo đề nghị của Tổ chức Pháp chế các Bộ, cơ quan ngang Bộ, Sở Tư pháp các tỉnh và các cơ quan liên quan [12]."
+      },
+      {
+        "id": 16,
+        "question": "Nếu dữ liệu thủ tục hành chính nhập vào không chính xác, Cục Kiểm soát thủ tục hành chính xử lý ra sao?",
+        "answer": "Cục Kiểm soát thủ tục hành chính Bộ Tư pháp đề nghị các đơn vị liên quan điều chỉnh, bổ sung, hoàn thiện dữ liệu thủ tục hành chính và gửi về Cục trong thời hạn tối đa không quá 10 ngày làm việc, kể từ ngày nhận được đề nghị [13]."
+      },
+      {
+        "id": 17,
+        "question": "Các cơ quan giải quyết thủ tục hành chính có được tự quy định thêm các nội dung không có trên Cơ sở dữ liệu quốc gia không?",
+        "answer": "Không, các cơ quan giải quyết hồ sơ không được quy định thêm bất kỳ nội dung nào khác về thủ tục hành chính ngoài những quy định đã được đăng tải trên Cơ sở dữ liệu quốc gia [14]."
+      },
+      {
+        "id": 18,
+        "question": "Cơ sở dữ liệu quốc gia về thủ tục hành chính hoạt động theo thời gian như thế nào?",
+        "answer": "Bảo đảm Cơ sở dữ liệu quốc gia hoạt động liên tục 24 (hai mươi tư) giờ trong tất cả các ngày [15]."
+      },
+      {
+        "id": 19,
+        "question": "Trong trường hợp nâng cấp, sửa chữa Cơ sở dữ liệu quốc gia thì phải làm gì?",
+        "answer": "Trong trường hợp Cơ sở dữ liệu quốc gia được sửa chữa, khắc phục các sự cố hoặc nâng cấp, chỉnh sửa cần thông báo về việc tạm ngưng hoạt động của Cơ sở dữ liệu quốc gia theo quy định tại Điều 16 Nghị định số 64/2007/NĐ-CP [15]."
+      },
+      {
+        "id": 20,
+        "question": "Tài khoản đăng nhập Cơ sở dữ liệu quốc gia do ai quản lý và có được cung cấp cho người khác không?",
+        "answer": "Tài khoản do Bộ Tư pháp cấp [16]. Công chức, viên chức được giao tài khoản đăng nhập phải tự thay đổi mật khẩu và tự bảo mật tài khoản trong quá trình sử dụng, không được cung cấp hoặc để lộ tài khoản [16]."
+      },
+      {
+        "id": 21,
+        "question": "Kiểm tra gián tiếp việc thực hiện hoạt động kiểm soát thủ tục hành chính là gì?",
+        "answer": "Kiểm tra gián tiếp là việc Đoàn kiểm tra nghiên cứu báo cáo, văn bản, tài liệu của tổ chức, cá nhân được kiểm tra [17]."
+      },
+      {
+        "id": 22,
+        "question": "Khi có đợt kiểm tra trực tiếp, tổ chức được kiểm tra phải gửi báo cáo trước bao nhiêu ngày?",
+        "answer": "Tổ chức, cá nhân được kiểm tra phải gửi báo cáo kết quả tình hình thực hiện nhiệm vụ kiểm soát thủ tục hành chính cho Đoàn kiểm tra chậm nhất trước 05 (năm) ngày làm việc kể từ ngày Đoàn kiểm tra đến làm việc [18]."
+      },
+      {
+        "id": 23,
+        "question": "Trong trường hợp kiểm tra đột xuất, tổ chức được kiểm tra có phải gửi báo cáo trước không?",
+        "answer": "Trong trường hợp kiểm tra đột xuất, tổ chức, cá nhân được kiểm tra không phải gửi báo cáo trước [18]."
+      },
+      {
+        "id": 24,
+        "question": "Tổ chức được kiểm tra có quyền từ chối cung cấp thông tin cho Đoàn kiểm tra không?",
+        "answer": "Tổ chức, cá nhân được kiểm tra có quyền từ chối cung cấp các thông tin, tài liệu không liên quan đến nội dung kiểm tra [18]."
+      },
+      {
+        "id": 25,
+        "question": "Kế hoạch kiểm tra của Bộ Tư pháp được phê duyệt và gửi tới các địa phương vào thời hạn nào?",
+        "answer": "Cục Kiểm soát thủ tục hành chính trình Bộ trưởng Bộ Tư pháp phê duyệt kế hoạch trước ngày 15 tháng 01 và gửi tới các Bộ, cơ quan, Ủy ban nhân dân cấp tỉnh trong thời hạn 05 (năm) ngày làm việc kể từ ngày phê duyệt [19]."
+      },
+      {
+        "id": 26,
+        "question": "Đoàn kiểm tra phải thông báo chương trình kiểm tra cho đối tượng kiểm tra trước bao nhiêu ngày đối với kiểm tra đột xuất?",
+        "answer": "Đối với trường hợp kiểm tra đột xuất, Đoàn kiểm tra thông báo chậm nhất là 03 (ba) ngày làm việc trước khi tiến hành kiểm tra [20]."
+      },
+      {
+        "id": 27,
+        "question": "Sau khi kết thúc đợt kiểm tra, thời hạn để thông báo kết luận kiểm tra là bao lâu?",
+        "answer": "Chậm nhất trong thời hạn 15 (mười lăm) ngày làm việc kể từ ngày kết thúc đợt kiểm tra, cơ quan, người có thẩm quyền kiểm tra có trách nhiệm ký, gửi thông báo kết luận kiểm tra tới tổ chức, cá nhân có liên quan [21]."
+      },
+      {
+        "id": 28,
+        "question": "Trình tự thực hiện thủ tục hành chính được định nghĩa như thế nào?",
+        "answer": "Trình tự thực hiện là thứ tự các bước tiến hành của đối tượng và cơ quan thực hiện thủ tục hành chính trong giải quyết một công việc cụ thể cho cá nhân, tổ chức [22]."
+      },
+      {
+        "id": 29,
+        "question": "Hồ sơ trong thủ tục hành chính là gì?",
+        "answer": "Hồ sơ là những loại giấy tờ mà đối tượng thực hiện thủ tục hành chính cần phải nộp hoặc xuất trình cho cơ quan, tổ chức có thẩm quyền giải quyết thủ tục hành chính trước khi cơ quan thực hiện thủ tục hành chính giải quyết một công việc cụ thể [22]."
+      },
+      {
+        "id": 30,
+        "question": "Ai là người quy định chức năng, nhiệm vụ của Cơ quan kiểm soát thủ tục hành chính?",
+        "answer": "Thủ tướng Chính phủ quy định cụ thể chức năng, nhiệm vụ, quyền hạn, cơ cấu tổ chức của Cơ quan kiểm soát thủ tục hành chính [23]."
+      },
+      {
+        "id": 31,
+        "question": "Cán bộ, công chức có được phép tự ý yêu cầu người dân nộp thêm giấy tờ ngoài quy định không?",
+        "answer": "Không, nghiêm cấm từ chối thực hiện, kéo dài thời gian thực hiện hoặc tự ý yêu cầu bổ sung thêm hồ sơ, giấy tờ ngoài quy định mà không nêu rõ lý do bằng văn bản [24]."
+      },
+      {
+        "id": 32,
+        "question": "Thủ tục hành chính chỉ được quy định trong các văn bản do ai ban hành?",
+        "answer": "Thủ tục hành chính phải được quy định trong văn bản quy phạm pháp luật do Chính phủ ban hành hoặc trình Quốc hội, Ủy ban Thường vụ Quốc hội ban hành; do Thủ tướng Chính phủ, Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương ban hành [25]."
+      },
+      {
+        "id": 33,
+        "question": "Việc đánh giá tác động của thủ tục hành chính phải dựa trên các tiêu chí nào?",
+        "answer": "Đánh giá tác động của thủ tục hành chính dựa trên các tiêu chí: Sự cần thiết của thủ tục hành chính, tính hợp lý, tính hợp pháp, và các chi phí tuân thủ thủ tục hành chính [26]."
+      },
+      {
+        "id": 34,
+        "question": "Ai có thẩm quyền công bố thủ tục hành chính thuộc thẩm quyền giải quyết trên địa bàn tỉnh?",
+        "answer": "Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương công bố thủ tục hành chính thuộc thẩm quyền giải quyết của các cấp chính quyền trên địa bàn tỉnh, thành phố trực thuộc Trung ương [27]."
+      },
+      {
+        "id": 35,
+        "question": "Quyết định công bố thủ tục hành chính mới phải được ban hành chậm nhất vào thời điểm nào?",
+        "answer": "Quyết định công bố thủ tục hành chính phải được ban hành chậm nhất trước 10 (mười) ngày làm việc tính đến ngày văn bản quy phạm pháp luật có quy định về thủ tục hành chính có hiệu lực thi hành [28]."
+      },
+      {
+        "id": 36,
+        "question": "Công chức có được phép để tổ chức, cá nhân phải đi lại bổ sung hồ sơ nhiều lần không?",
+        "answer": "Công chức phải hướng dẫn tổ chức, cá nhân thực hiện trình tự, hồ sơ hành chính đầy đủ, rõ ràng, chính xác không để tổ chức, cá nhân phải đi lại bổ sung hồ sơ quá hai lần cho một vụ việc, trừ trường hợp họ thực hiện không đúng theo hướng dẫn [29]."
+      },
+      {
+        "id": 37,
+        "question": "Thủ tục hành chính phải được gửi lên Cơ sở dữ liệu quốc gia trong vòng bao nhiêu ngày kể từ khi ký quyết định công bố?",
+        "answer": "Chậm nhất trong thời hạn 05 (năm) ngày làm việc kể từ ngày ký quyết định công bố [30]."
+      },
+      {
+        "id": 38,
+        "question": "Kế hoạch rà soát, đánh giá thủ tục hành chính hàng năm phải được gửi đến Cơ quan kiểm soát thủ tục hành chính trước ngày nào?",
+        "answer": "Trước ngày 31 tháng 01 của năm kế hoạch [31]."
+      },
+      {
+        "id": 39,
+        "question": "Khi thay thế hoặc cắt giảm hồ sơ dựa trên dữ liệu, cơ quan tiếp nhận thủ tục hành chính sẽ làm gì nếu không khai thác được thông tin từ cơ sở dữ liệu?",
+        "answer": "Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, không chính xác thì cơ quan, người có thẩm quyền yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ, đồng thời đề nghị cá nhân, tổ chức thực hiện cập nhật, điều chỉnh thông tin trong các cơ sở dữ liệu [32]."
+      },
+      {
+        "id": 40,
+        "question": "Cá nhân đăng nhập bằng ứng dụng VNeID để đề nghị giải quyết thủ tục hành chính có cần phải ký số biểu mẫu không?",
+        "answer": "Cá nhân đăng nhập Cổng dịch vụ công quốc gia hoặc Ứng dụng định danh quốc gia (VNeID) đề nghị giải quyết thủ tục hành chính thì không phải thực hiện ký số biểu mẫu điện tử tương tác [32]."
+      },
+      {
+        "id": 41,
+        "question": "Thông tin trên Cơ sở dữ liệu quốc gia về dân cư được khai thác để thay thế cho những loại giấy tờ nào?",
+        "answer": "Được khai thác và sử dụng thay thế Chứng minh nhân dân hoặc Căn cước công dân hoặc Thẻ Căn cước, Giấy chứng nhận căn cước, và thông tin về cư trú [33]."
+      },
+      {
+        "id": 42,
+        "question": "Thông tin về Giấy khai sinh, Trích lục khai sinh được thay thế bằng dữ liệu từ đâu?",
+        "answer": "Thông tin trên Cơ sở dữ liệu hộ tịch điện tử được khai thác và sử dụng thay thế Giấy khai sinh hoặc Trích lục khai sinh [33]."
+      },
+      {
+        "id": 43,
+        "question": "Cơ sở dữ liệu quốc gia về bảo hiểm cung cấp thông tin để thay thế cho loại giấy tờ gì?",
+        "answer": "Được khai thác và sử dụng thay thế Thẻ bảo hiểm y tế và Sổ bảo hiểm xã hội [33]."
+      },
+      {
+        "id": 44,
+        "question": "Giấy chứng nhận quyền sử dụng đất ở giai đoạn đầu áp dụng Nghị quyết 66.7/2025/NQ-CP có thể được thay thế bằng thông tin từ đâu?",
+        "answer": "Thông tin trên Cơ sở dữ liệu quốc gia về đất đai được khai thác và sử dụng thay thế giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất (giai đoạn đầu áp dụng đối với đất ở) [33]."
+      },
+      {
+        "id": 45,
+        "question": "Phiếu lý lịch tư pháp được thay thế bằng thông tin lấy từ nguồn cơ sở dữ liệu nào?",
+        "answer": "Thông tin trên Cơ sở dữ liệu lý lịch tư pháp được khai thác và sử dụng thay thế Phiếu lý lịch tư pháp [33]."
+      },
+      {
+        "id": 46,
+        "question": "Cơ sở dữ liệu nền tảng sổ sức khỏe điện tử được dùng thay thế cho giấy tờ nào trong thủ tục hành chính?",
+        "answer": "Thông tin trên Cơ sở dữ liệu nền tảng sổ sức khỏe điện tử được khai thác và sử dụng thay thế Giấy khám sức khỏe [33]."
+      },
+      {
+        "id": 47,
+        "question": "Việc hướng dẫn và phối hợp triển khai kết nối khai thác cơ sở dữ liệu phải được hoàn thành trước thời gian nào?",
+        "answer": "Hoàn thành trước ngày 01 tháng 01 năm 2026 [34]."
+      },
+      {
+        "id": 48,
+        "question": "Trường hợp nộp hồ sơ thủ tục hành chính trực tuyến trên Cổng Dịch vụ công, cơ quan tiếp nhận phải gửi thông báo yêu cầu bổ sung hồ sơ (nếu thiếu thông tin dữ liệu) trong thời gian bao lâu?",
+        "answer": "Người có thẩm quyền phải có thông báo yêu cầu bổ sung, hoàn thiện hồ sơ cho cá nhân, tổ chức không muộn hơn 08 giờ làm việc hoặc theo thời hạn được quy định tại văn bản quy phạm pháp luật chuyên ngành kể từ khi Hệ thống thông tin tiếp nhận hồ sơ [35]."
+      },
+      {
+        "id": 49,
+        "question": "Đối với trường hợp nộp hồ sơ trực tiếp, thời hạn gửi Phiếu yêu cầu bổ sung hồ sơ là bao lâu?",
+        "answer": "Người có thẩm quyền gửi Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ cho cá nhân, tổ chức trong thời hạn không quá 01 ngày làm việc kể từ khi nhận được hồ sơ hoặc theo thời hạn quy định tại văn bản chuyên ngành [35]."
+      },
+      {
+        "id": 50,
+        "question": "Nghị quyết 66.7/2025/NQ-CP của Chính phủ về cắt giảm TTHC dựa trên dữ liệu có hiệu lực trong khoảng thời gian nào?",
+        "answer": "Nghị quyết này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026 đến hết ngày 28 tháng 02 năm 2027 trừ một số trường hợp cụ thể quy định tại khoản 2, khoản 3 Điều 10 [36]."
+      }
+    ]
+  }
