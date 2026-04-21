@@ -1,35 +1,51 @@
 import asyncio
-from typing import List, Dict
+import os
+from typing import Dict
+from dotenv import load_dotenv
+from openai import OpenAI
+
+load_dotenv()
 
 class MainAgent:
-    """
-    Đây là Agent mẫu sử dụng kiến trúc RAG đơn giản.
-    Sinh viên nên thay thế phần này bằng Agent thực tế đã phát triển ở các buổi trước.
-    """
+    """Agent dùng OpenAI API để sinh câu trả lời dựa trên context."""
     def __init__(self):
         self.name = "SupportAgent-v1"
+        self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        self.model = "gpt-4o-mini"
 
-    async def query(self, question: str) -> Dict:
-        """
-        Mô phỏng quy trình RAG:
-        1. Retrieval: Tìm kiếm context liên quan.
-        2. Generation: Gọi LLM để sinh câu trả lời.
-        """
-        # Giả lập độ trễ mạng/LLM
-        await asyncio.sleep(0.5) 
-        
-        # Giả lập dữ liệu trả về
+    def _call_llm(self, question: str, context: str = "") -> str:
+        if context:
+            prompt = (
+                f"Dựa trên context sau, hãy trả lời câu hỏi:\n\n"
+                f"Context: {context}\n\n"
+                f"Câu hỏi: {question}\n\n"
+                f"Hãy trả lời ngắn gọn, chính xác dựa trên context."
+            )
+        else:
+            prompt = f"Hãy trả lời câu hỏi sau:\n\nCâu hỏi: {question}\n\nTrả lời ngắn gọn, chính xác."
+
+        try:
+            message = self.client.chat.completions.create(
+                model=self.model,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.7,
+                max_tokens=500,
+            )
+            return message.choices[0].message.content
+        except Exception as e:
+            print(f"⚠️  Error calling OpenAI API: {e}")
+            return f"Xin lỗi, tôi không thể trả lời câu hỏi này: {question}"
+
+    async def query(self, question: str, context: str = "") -> Dict:
+        answer = self._call_llm(question, context)
         return {
-            "answer": f"Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi '{question}' như sau: [Câu trả lời mẫu].",
-            "contexts": [
-                "Đoạn văn bản trích dẫn 1 dùng để trả lời...",
-                "Đoạn văn bản trích dẫn 2 dùng để trả lời..."
-            ],
+            "answer": answer,
+            "contexts": [context] if context else [],
             "metadata": {
-                "model": "gpt-4o-mini",
-                "tokens_used": 150,
-                "sources": ["policy_handbook.pdf"]
-            }
+                "model": self.model,
+                "tokens_used": len(answer.split()),
+                "sources": ["openai-api"],
+            },
         }
 
 if __name__ == "__main__":
