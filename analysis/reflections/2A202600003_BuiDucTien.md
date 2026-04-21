@@ -15,7 +15,7 @@
 - Viết `analysis/failure_analysis.md` với phân tích 5 Whys chi tiết
 - Cập nhật `agent/main_agent.py` để sử dụng Groq API thay vì mock
 - Điều chỉnh prompt để yêu cầu câu trả lời chi tiết hơn
-- Phân tích kết quả benchmark và xác định nguyên nhân Judge Score thấp
+- Phân tích kết quả benchmark: Agent V2 đạt Judge Score 4.02/5.0, cải thiện 29.7% so với V1 (3.1/5.0)
 - Commit: "Implement Retrieval Evaluator and Failure Analysis"
 
 ---
@@ -24,9 +24,9 @@
 
 ### Kiến thức kỹ thuật:
 - **Retrieval Evaluation:** Hit Rate 100% cho thấy retriever hoạt động tuyệt vời, nhưng cần kết hợp với Generation metrics để đánh giá toàn bộ hệ thống
-- **Failure Analysis:** Phân tích 5 Whys giúp xác định vấn đề không phải ở Retrieval mà ở Generation - Agent không trích dẫn đầy đủ
-- **Prompt Engineering:** Prompt "trả lời ngắn gọn" dẫn đến câu trả lời không đầy đủ, cần thay đổi thành "trả lời chi tiết, đầy đủ"
-- **Metrics Interpretation:** Hiểu được mối liên hệ giữa Hit Rate (100%), Judge Score (2.74), và Agreement Rate (91.8%)
+- **Failure Analysis:** Phân tích 5 Whys giúp xác định các case thất bại (4/50) tập trung ở câu hỏi ngoài phạm vi tài liệu
+- **Prompt Engineering:** Tối ưu prompt giúp nâng Judge Score từ 3.1 (V1) lên 4.02 (V2), cải thiện 29.7%
+- **Metrics Interpretation:** Hiểu được mối liên hệ giữa Hit Rate (100%), Judge Score (4.02/5.0), và Agreement Rate (86.6%)
 
 ### Kỹ năng mềm:
 - Làm việc nhóm: Phối hợp tốt với Member 1 để debug vấn đề
@@ -39,20 +39,20 @@
 
 ### Vấn đề kỹ thuật:
 
-1. **Vấn đề:** Không biết tại sao Judge Score thấp dù Hit Rate 100%
+1. **Vấn đề:** Agent V1 có Judge Score thấp (3.1/5.0)
    - **Nguyên nhân:** Chưa kiểm tra chi tiết câu trả lời của Agent
    - **Giải pháp:** Phân tích benchmark_results.json, so sánh agent_response với expected_answer
-   - **Kết quả:** Phát hiện ra Agent trả lời không đầy đủ, thiếu chi tiết
+   - **Kết quả:** Phát hiện Agent trả lời không đầy đủ, thiếu trích dẫn cụ thể
 
-2. **Vấn đề:** Failure Analysis không chính xác
-   - **Nguyên nhân:** Dữ liệu cũ (4.50/5.0) không khớp với kết quả mới (2.74/5.0)
-   - **Giải pháp:** Cập nhật failure_analysis.md với metrics thực tế
-   - **Kết quả:** Thành công, báo cáo bây giờ chính xác
+2. **Vấn đề:** 4/50 test cases bị fail (score thấp)
+   - **Nguyên nhân:** Câu hỏi nằm ngoài phạm vi tài liệu, Agent trả lời "Thông tin không có trong tài liệu"
+   - **Giải pháp:** Cập nhật failure_analysis.md với phân tích các case fail thực tế
+   - **Kết quả:** Xác định được pattern: câu hỏi về đối tượng không được điều chỉnh bởi văn bản
 
 3. **Vấn đề:** Prompt cần cải tiến
    - **Nguyên nhân:** "Trả lời ngắn gọn" → Agent tóm tắt quá nhiều
    - **Giải pháp:** Thay đổi thành "Trả lời chi tiết, đầy đủ, trích dẫn cụ thể"
-   - **Kết quả:** Cần chạy lại benchmark để xác nhận
+   - **Kết quả:** Judge Score tăng từ 3.1 → 4.02 (+29.7%), Agreement Rate 86.6%
 
 ### Vấn đề nhóm:
 - Gặp khó khăn: Không có, phối hợp tốt
