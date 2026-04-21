@@ -1,0 +1,1102 @@
+[
+  {
+    "test_case": "Dữ liệu thủ tục hành chính trên Cơ sở dữ liệu quốc gia bao gồm những thông tin cơ bản nào?",
+    "agent_response": "Dữ liệu thủ tục hành chính trên Cơ sở dữ liệu quốc gia bao gồm: thủ tục hành chính, thủ tục giải quyết công việc và văn bản quy phạm pháp luật có quy định về thủ tục hành chính. (Theo Điều 3).",
+    "latency": 3.500301500000205,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Cơ quan nào có trách nhiệm đôn đốc việc thực hiện nhập dữ liệu thủ tục hành chính?",
+    "agent_response": "Cục Kiểm soát thủ tục hành chính Bộ Tư pháp có trách nhiệm đôn đốc việc thực hiện nhập dữ liệu thủ tục hành chính theo quy định tại Điều 5 Khoản 2b.",
+    "latency": 3.151391800001875,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Cơ sở dữ liệu quốc gia về thủ tục hành chính phải bảo đảm hoạt động bao nhiêu giờ mỗi ngày?",
+    "agent_response": "Cơ sở dữ liệu quốc gia về thủ tục hành chính phải bảo đảm hoạt động liên tục 24 giờ trong tất cả các ngày. (Theo Điều 11 Khoản 7).",
+    "latency": 1.3941583999985596,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Thông tư 19/2014/TT-BTP chính thức có hiệu lực thi hành từ ngày nào?",
+    "agent_response": "Theo Điều 14 Khoản 1 của Thông tư, Thông tư 19/2014/TT-BTP có hiệu lực thi hành từ ngày 01 tháng 11 năm 2014.",
+    "latency": 1.2163774000000558,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Nghị định 63/2010/NĐ-CP có áp dụng điều chỉnh đối với các thủ tục xử lý vi phạm hành chính không?",
+    "agent_response": "Nghị định 63/2010/NĐ-CP không áp dụng điều chỉnh đối với các thủ tục xử lý vi phạm hành chính. Theo Điều 1 Khoản 2b, Nghị định này không điều chỉnh \"Thủ tục xử lý vi phạm hành chính\".",
+    "latency": 1.8683507000023383,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Ai là người có thẩm quyền bổ nhiệm, miễn nhiệm Thủ trưởng Cơ quan kiểm soát thủ tục hành chính?",
+    "agent_response": "Thủ trưởng Cơ quan kiểm soát thủ tục hành chính do Bộ trưởng, Chủ nhiệm Văn phòng Chính phủ bổ nhiệm, miễn nhiệm. (Theo Điều 5 Khoản 1).",
+    "latency": 3.235096100001101,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Quyết định công bố thủ tục hành chính phải được ban hành chậm nhất trước bao nhiêu ngày tính đến ngày văn bản có quy định TTHC có hiệu lực thi hành?",
+    "agent_response": "Quyết định công bố thủ tục hành chính phải được ban hành chậm nhất trước 10 (mười) ngày làm việc tính đến ngày văn bản quy phạm pháp luật có quy định về thủ tục hành chính có hiệu lực thi hành. (Theo Điều 15 Khoản 1).",
+    "latency": 6.849730100002489,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Trong trường hợp dữ liệu thủ tục hành chính nhập vào bị sai sót, tổ chức Pháp chế các Bộ có thời gian bao lâu để điều chỉnh và gửi lại cho Cục Kiểm soát TTHC?",
+    "agent_response": "Theo Điều 7 Khoản 5, trường hợp dữ liệu thủ tục hành chính nhập vào Cơ sở dữ liệu quốc gia không bảo đảm tính đầy đủ, chính xác, phù hợp, Cục Kiểm soát thủ tục hành chính Bộ Tư pháp đề nghị Tổ chức Pháp chế các Bộ điều chỉnh, bổ sung, hoàn thiện dữ liệu trong thời hạn tối đa không quá 10 ngày làm việc, kể từ ngày nhận được đề nghị.",
+    "latency": 1.8406209999993735,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Mẫu văn bản đề nghị đăng tải công khai dữ liệu được gửi về Cục Kiểm soát thủ tục hành chính qua địa chỉ thư điện tử nào?",
+    "agent_response": "Mẫu văn bản đề nghị đăng tải công khai dữ liệu thủ tục hành chính được gửi về Cục Kiểm soát thủ tục hành chính Bộ Tư pháp qua địa chỉ thư điện tử cuckstthc@moj.gov.vn theo Điều 5 Khoản 2b.",
+    "latency": 1.4533717000012984,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Tổ chức nào giúp Ủy ban nhân dân cấp tỉnh thực hiện quy trình nhập dữ liệu TTHC vào Cơ sở dữ liệu quốc gia?",
+    "agent_response": "Sở Tư pháp giúp Ủy ban nhân dân cấp tỉnh thực hiện quy trình nhập dữ liệu thủ tục hành chính vào Cơ sở dữ liệu quốc gia, theo Điều 5 Khoản 1b.",
+    "latency": 1.4421728000015719,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Kinh phí thực hiện hoạt động kiểm soát thủ tục hành chính của các tỉnh, thành phố trực thuộc trung ương do nguồn nào bảo đảm?",
+    "agent_response": "Kinh phí thực hiện hoạt động kiểm soát thủ tục hành chính của các tỉnh, thành phố trực thuộc trung ương do ngân sách địa phương bảo đảm. (Theo Điều 34 Khoản 1).",
+    "latency": 9.456273700001475,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Báo cáo định kỳ hàng quý về tình hình và kết quả thực hiện hoạt động kiểm soát TTHC được gửi cho chức danh nào?",
+    "agent_response": "Báo cáo định kỳ hàng quý về tình hình và kết quả thực hiện hoạt động kiểm soát TTHC được gửi cho Thủ tướng Chính phủ. (Theo Điều 35 Khoản 1).",
+    "latency": 1.242326100000355,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Cơ quan kiểm soát thủ tục hành chính phải đăng tải dữ liệu trong thời hạn bao nhiêu ngày kể từ ngày nhận được dữ liệu từ bộ, ngành, địa phương?",
+    "agent_response": "Cơ quan kiểm soát thủ tục hành chính phải đăng tải dữ liệu về thủ tục hành chính đã được bộ, ngành, địa phương gửi trong thời hạn 05 (năm) ngày làm việc kể từ ngày nhận được các dữ liệu đó. (Theo Điều 26 Khoản 2).",
+    "latency": 7.119315799998731,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Kế hoạch rà soát, đánh giá thủ tục hành chính hàng năm của các Bộ phải được gửi đến Cơ quan kiểm soát thủ tục hành chính trước ngày tháng nào?",
+    "agent_response": "Kế hoạch rà soát, đánh giá thủ tục hành chính hàng năm của các Bộ phải được gửi đến Cơ quan kiểm soát thủ tục hành chính trước ngày 31 tháng 01 của năm kế hoạch. (Theo Điều 30 Khoản 3).",
+    "latency": 8.462561699998332,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Cơ quan nào chịu trách nhiệm thiết lập và duy trì hoạt động của cổng thông tin phản ánh, kiến nghị về thủ tục hành chính?",
+    "agent_response": "Văn phòng Chính phủ chịu trách nhiệm thiết lập, duy trì hoạt động của cổng thông tin phản ánh, kiến nghị về thủ tục hành chính theo quy định tại Khoản 2 Điều 22.",
+    "latency": 4.972378899998148,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Tại sao việc khai thác dữ liệu thủ tục hành chính lại yêu cầu phải tuân thủ các quy định về dịch vụ Internet và thông tin trên mạng?",
+    "agent_response": "Việc khai thác dữ liệu thủ tục hành chính yêu cầu phải tuân thủ các quy định về dịch vụ Internet và thông tin trên mạng để đảm bảo an toàn, bảo mật và hợp pháp trong việc sử dụng thông tin. Điều này được quy định tại Điều 4 Khoản 3 của Thông tư: \"Việc khai thác dữ liệu thủ tục hành chính trên Cơ sở dữ liệu quốc gia của các cơ quan, tổ chức, cá nhân và việc quản lý Cơ sở dữ liệu quốc gia phải tuân thủ các quy định của pháp luật về khai thác, sử dụng và quản lý dịch vụ Internet và thông tin trên mạng.\"",
+    "latency": 2.8794406999986677,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Cơ quan giải quyết TTHC có được phép yêu cầu người dân nộp thêm giấy tờ không có trên CSDL quốc gia không? Giải thích vì sao.",
+    "agent_response": "Cơ quan giải quyết TTHC không được phép yêu cầu người dân nộp thêm giấy tờ không có trên CSDL quốc gia. Theo Điều 10 Khoản 2, \"không được quy định thêm bất kỳ nội dung nào khác về thủ tục hành chính ngoài những quy định đã được đăng tải trên Cơ sở dữ liệu quốc gia.\"",
+    "latency": 3.8567097000013746,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Vì sao công chức được giao tài khoản đăng nhập CSDL Quốc gia không được phép chia sẻ tài khoản cho đồng nghiệp?",
+    "agent_response": "Theo Điều 13 Khoản 8 của Thông tư, công chức, viên chức được giao tài khoản đăng nhập phải \"tự thay đổi mật khẩu và tự bảo mật tài khoản trong quá trình sử dụng; không được cung cấp hoặc để lộ tài khoản.\" Điều này quy định rõ ràng rằng việc chia sẻ tài khoản là không được phép nhằm đảm bảo an toàn và bảo mật thông tin trong Cơ sở dữ liệu quốc gia.",
+    "latency": 1.850406200002908,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Tại sao cần thực hiện đánh giá tác động của thủ tục hành chính trong quá trình soạn thảo dự án văn bản quy phạm pháp luật?",
+    "agent_response": "Cần thực hiện đánh giá tác động của thủ tục hành chính trong quá trình soạn thảo dự án văn bản quy phạm pháp luật để đảm bảo sự cần thiết, tính hợp lý, tính hợp pháp của thủ tục hành chính và các chi phí tuân thủ thủ tục hành chính, theo quy định tại Điều 10 Khoản 1 của Nghị định.",
+    "latency": 1.661858100000245,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 3
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Mục đích của việc đăng tải công khai các TTHC đã bị hủy bỏ hoặc bãi bỏ trên CSDL quốc gia là gì?",
+    "agent_response": "Thông tin không có trong tài liệu được cung cấp.",
+    "latency": 0.9219908000013675,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 1,
+        "gpt-4o-judge": 1
+      }
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Một cán bộ yêu cầu người dân bổ sung thêm hồ sơ mà không nêu rõ lý do bằng văn bản thì có vi phạm không? Tại sao?",
+    "agent_response": "Có, cán bộ đó vi phạm. Theo Điều 6 Khoản 1b, việc từ chối thực hiện hoặc tự ý yêu cầu bổ sung thêm hồ sơ, giấy tờ ngoài quy định mà không nêu rõ lý do bằng văn bản là hành vi bị nghiêm cấm.",
+    "latency": 1.5423972999997204,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Vì sao các thủ tục hành chính trong nội bộ giữa các cơ quan hành chính nhà nước không được điều chỉnh bởi Nghị định 63/2010/NĐ-CP?",
+    "agent_response": "Các thủ tục hành chính trong nội bộ giữa các cơ quan hành chính nhà nước không được điều chỉnh bởi Nghị định 63/2010/NĐ-CP vì chúng không liên quan đến việc giải quyết thủ tục hành chính cho cá nhân, tổ chức. Cụ thể, theo Điều 1 Khoản 2a của Nghị định này: \"Nghị định này không điều chỉnh: a) Thủ tục hành chính trong nội bộ của từng cơ quan hành chính nhà nước, giữa cơ quan hành chính nhà nước với nhau không liên quan đến việc giải quyết thủ tục hành chính cho cá nhân, tổ chức.\"",
+    "latency": 2.2199217999987013,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Mối liên hệ giữa việc rà soát thủ tục hành chính định kỳ và mục tiêu đơn giản hóa thủ tục hành chính là gì?",
+    "agent_response": "Mối liên hệ giữa việc rà soát thủ tục hành chính định kỳ và mục tiêu đơn giản hóa thủ tục hành chính là việc rà soát, đánh giá thủ tục hành chính sẽ giúp xác định sự cần thiết và tính phù hợp của các thủ tục, từ đó làm cơ sở để thực hiện đơn giản hóa thủ tục hành chính. Cụ thể, Điều 31 Khoản 1 quy định rằng \"trên cơ sở kết quả rà soát, đánh giá thủ tục hành chính... sửa đổi, bổ sung, thay thế, hủy bỏ hoặc bãi bỏ theo thẩm quyền hoặc đề nghị cơ quan có thẩm quyền sửa đổi, bổ sung, thay thế, hủy bỏ thủ tục hành chính và quy định có liên quan đến thủ tục hành chính không đáp ứng quy định.\"",
+    "latency": 2.55717690000165,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Cơ quan chủ trì soạn thảo văn bản quy phạm pháp luật có bắt buộc phải làm theo toàn bộ ý kiến góp ý của cơ quan kiểm soát thủ tục hành chính không? Nếu không thì phải làm gì?",
+    "agent_response": "Cơ quan chủ trì soạn thảo không bắt buộc phải làm theo toàn bộ ý kiến góp ý của cơ quan kiểm soát thủ tục hành chính. Nếu không tiếp thu ý kiến góp ý, cơ quan chủ trì soạn thảo phải giải trình cụ thể. Điều này được quy định tại Điều 9 Khoản 4: \"Trường hợp không tiếp thu ý kiến góp ý, cơ quan chủ trì soạn thảo phải giải trình cụ thể.\"",
+    "latency": 2.0016040000009525,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Tại sao hồ sơ thẩm định văn bản quy phạm pháp luật sẽ bị từ chối nếu thiếu bản đánh giá tác động về thủ tục hành chính?",
+    "agent_response": "Hồ sơ thẩm định văn bản quy phạm pháp luật sẽ bị từ chối nếu thiếu bản đánh giá tác động về thủ tục hành chính vì cơ quan thẩm định không tiếp nhận hồ sơ gửi thẩm định nếu dự án, dự thảo văn bản quy phạm pháp luật có quy định về thủ tục hành chính chưa có bản đánh giá tác động về thủ tục hành chính và ý kiến góp ý của Cơ quan, đơn vị kiểm soát thủ tục hành chính. (Theo Điều 11 Khoản 3).",
+    "latency": 2.4058822999977565,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 3
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Tại sao một TTHC được Chính phủ ban hành đôi khi vẫn cần Bộ trưởng quy định thêm về yêu cầu, điều kiện dạng quy chuẩn kỹ thuật?",
+    "agent_response": "Một TTHC được Chính phủ ban hành đôi khi vẫn cần Bộ trưởng quy định thêm về yêu cầu, điều kiện dạng quy chuẩn kỹ thuật vì yêu cầu, điều kiện đó phải được quy định trong văn bản quy phạm pháp luật thuộc thẩm quyền ban hành của Bộ trưởng, Thủ trưởng cơ quan ngang bộ. Điều này được nêu rõ trong Điều 8 Khoản 3: \"Đối với yêu cầu, điều kiện thể hiện dưới dạng quy chuẩn kỹ thuật phải được quy định trong văn bản quy phạm pháp luật thuộc thẩm quyền ban hành của Bộ trưởng, Thủ trưởng cơ quan ngang bộ.\"",
+    "latency": 3.24068040000202,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 3
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Người dân có quyền từ chối các yêu cầu chưa được công khai theo quy định khi làm TTHC không? Vì sao?",
+    "agent_response": "Có, người dân có quyền từ chối các yêu cầu chưa được công khai theo quy định khi làm thủ tục hành chính. Điều này được quy định tại Điều 21 Khoản 2: \"Từ chối thực hiện những yêu cầu không được quy định trong thủ tục hành chính hoặc chưa được công khai theo quy định.\"",
+    "latency": 1.5055533999984618,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Tại sao Cục Kiểm soát TTHC phải đối chiếu dữ liệu với Quyết định công bố trước khi đăng tải?",
+    "agent_response": "Cục Kiểm soát thủ tục hành chính phải đối chiếu dữ liệu với Quyết định công bố trước khi đăng tải để đảm bảo tính đầy đủ, chính xác của dữ liệu thủ tục hành chính đã được nhập vào Cơ sở dữ liệu quốc gia. Điều này được quy định tại Điều 7 Khoản 1 và Khoản 2 của Thông tư.",
+    "latency": 1.8639017999994394,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 3
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Mối liên hệ giữa việc cán bộ được khen thưởng và hoạt động kiểm soát TTHC là gì?",
+    "agent_response": "Cán bộ, công chức có thành tích trong thực hiện kiểm soát thủ tục hành chính sẽ được khen thưởng theo quy định của pháp luật về thi đua khen thưởng, và nếu có thành tích xuất sắc hoặc công trạng, họ còn được nâng lương trước thời hạn và ưu tiên khi xem xét bổ nhiệm chức vụ cao hơn. (Theo Điều 32 Khoản 1 và 2).",
+    "latency": 2.262223499998072,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Giải thích vì sao mẫu đơn tải từ Cơ sở dữ liệu quốc gia về thủ tục hành chính lại được chấp nhận như mẫu cấp trực tiếp tại cơ quan hành chính?",
+    "agent_response": "Mẫu đơn, mẫu tờ khai hành chính đăng tải kèm theo thủ tục hành chính trên Cơ sở dữ liệu quốc gia về thủ tục hành chính có giá trị ngang bằng với mẫu đơn, mẫu tờ khai hành chính do cơ quan thực hiện thủ tục hành chính cung cấp trực tiếp. Điều này được quy định tại Điều 25 Khoản 2 của Nghị định.",
+    "latency": 1.9549708000013197,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 3
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Nếu Sở Tư pháp phát hiện TTHC trên CSDL quốc gia chưa chính xác, Sở phải làm gì và đối tượng nhận phản hồi là ai?",
+    "agent_response": "Theo Điều 10 Khoản 3, khi phát hiện những thủ tục hành chính đã có hiệu lực thi hành nhưng chưa được công bố, công khai hoặc được công bố, công khai nhưng chưa chính xác, đầy đủ, Sở Tư pháp có trách nhiệm thông báo, gửi ý kiến phản hồi cho Tổ chức Pháp chế các Bộ, cơ quan ngang Bộ, các cơ quan: Bảo hiểm Xã hội Việt Nam, Ngân hàng Chính sách Xã hội, Ngân hàng Phát triển Việt Nam; Sở Tư pháp các tỉnh, thành phố trực thuộc Trung ương hoặc Cục Kiểm soát thủ tục hành chính Bộ Tư pháp để kịp thời xử lý.",
+    "latency": 2.858521500002098,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 2
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Khi một TTHC mới được ban hành, thời hạn để ban hành quyết định công bố trước khi văn bản có hiệu lực là bao lâu và thời hạn phải nhập dữ liệu gửi đi kể từ khi có quyết định công bố là bao lâu?",
+    "agent_response": "Thời hạn để ban hành quyết định công bố trước khi văn bản có hiệu lực là 10 (mười) ngày làm việc (Theo Điều 15 Khoản 1). Thời hạn để nhập dữ liệu gửi đi kể từ khi có quyết định công bố là 05 (năm) ngày làm việc (Theo Điều 24).",
+    "latency": 2.422206399998686,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Nếu cơ quan soạn thảo văn bản không đồng ý với ý kiến của Cơ quan kiểm soát TTHC, họ phải làm gì và hồ sơ gửi đi thẩm định văn bản sau đó có bao gồm tài liệu này không?",
+    "agent_response": "Cơ quan chủ trì soạn thảo phải giải trình cụ thể lý do không tiếp thu ý kiến góp ý của Cơ quan kiểm soát thủ tục hành chính. Việc tiếp thu, giải trình ý kiến góp ý phải được thể hiện thành một phần riêng trong văn bản tiếp thu, giải trình (Theo Điều 9 Khoản 4).\n\nHồ sơ gửi thẩm định phải có bản đánh giá tác động về thủ tục hành chính và báo cáo giải trình về việc tiếp thu ý kiến góp ý của các cơ quan, đơn vị, tổ chức, trong đó có ý kiến góp ý của Cơ quan kiểm soát thủ tục hành chính (Theo Điều 11 Khoản 3).",
+    "latency": 3.621479500001442,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Kế hoạch rà soát TTHC hàng năm của Ủy ban nhân dân tỉnh phải nộp trước ngày nào trong năm và cơ quan tiếp nhận sẽ xử lý báo cáo tổng hợp như thế nào đối với cấp trên?",
+    "agent_response": "Kế hoạch rà soát TTHC hàng năm của Ủy ban nhân dân tỉnh phải nộp trước ngày 31 tháng 01 của năm kế hoạch (Theo Điều 30 Khoản 3). Cơ quan kiểm soát thủ tục hành chính sẽ tổng hợp báo cáo của các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương để báo cáo Thủ tướng Chính phủ về tình hình, kết quả thực hiện hoạt động kiểm soát thủ tục hành chính (Theo Điều 35 Khoản 2).",
+    "latency": 2.447066900000209,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Nếu Cục Kiểm soát thủ tục hành chính phát hiện dữ liệu do Bảo hiểm Xã hội VN nhập vào bị sai sót, Cục sẽ thực hiện biện pháp gì và quy trình xử lý tiếp theo của Bảo hiểm Xã hội VN diễn ra trong thời gian bao lâu?",
+    "agent_response": "Theo Điều 7 Khoản 5, nếu dữ liệu thủ tục hành chính nhập vào Cơ sở dữ liệu quốc gia không đảm bảo tính đầy đủ, chính xác, Cục Kiểm soát thủ tục hành chính Bộ Tư pháp sẽ đề nghị Bảo hiểm Xã hội Việt Nam điều chỉnh, bổ sung, hoàn thiện dữ liệu trong thời hạn tối đa không quá 10 ngày làm việc, kể từ ngày nhận được đề nghị.",
+    "latency": 1.9261130000013509,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Cơ sở dữ liệu quốc gia phải duy trì hoạt động trong thời gian như thế nào? Trong trường hợp sự cố phải tạm ngưng, thủ tục thông báo tuân theo quy định tại văn bản nào bên ngoài?",
+    "agent_response": "Cơ sở dữ liệu quốc gia phải duy trì hoạt động liên tục 24 giờ trong tất cả các ngày. Trong trường hợp Cơ sở dữ liệu quốc gia được sửa chữa, khắc phục sự cố hoặc nâng cấp, cần thông báo về việc tạm ngưng hoạt động theo quy định tại Điều 16 Nghị định số 64/2007/NĐCP. (Theo Điều 11 Khoản 7).",
+    "latency": 1.7093568999989657,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Nếu quy định về một thủ tục hành chính mới chỉ có trình tự và hồ sơ nhưng thiếu phần mẫu đơn (nếu yêu cầu bắt buộc), thì thủ tục này có được xem là hoàn thành không? Mẫu đơn có phải là bộ phận tạo thành TTHC không?",
+    "agent_response": "Theo Điều 8 Khoản 2 điểm i của Nghị định, mẫu đơn, mẫu tờ khai hành chính là bộ phận tạo thành của thủ tục hành chính. Do đó, nếu quy định về một thủ tục hành chính mới chỉ có trình tự và hồ sơ nhưng thiếu phần mẫu đơn (nếu yêu cầu bắt buộc), thì thủ tục này không được xem là hoàn thành.",
+    "latency": 3.591971800000465,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Một người dân đi làm thủ tục và bị yêu cầu nộp thêm giấy tờ không công khai. Người này có quyền gì đối với yêu cầu đó và có thể sử dụng biện pháp pháp lý nào với hành vi của cán bộ?",
+    "agent_response": "Người dân có quyền từ chối thực hiện những yêu cầu không được quy định trong thủ tục hành chính hoặc chưa được công khai theo quy định. Cụ thể, theo Điều 21 Khoản 2, đối tượng thực hiện thủ tục hành chính có quyền từ chối thực hiện những yêu cầu không được quy định trong thủ tục hành chính.\n\nNgoài ra, người dân có thể khiếu nại, tố cáo, khởi kiện các quyết định hành chính và hành vi hành chính theo quy định của pháp luật, theo Điều 21 Khoản 7.",
+    "latency": 3.739125799998874,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Việc công bố thủ tục hành chính bị hủy bỏ đồng nghĩa với hành động gì trên CSDL quốc gia, và quyết định công bố này phải chứa những thông tin gì về hồ sơ cũ?",
+    "agent_response": "Việc công bố thủ tục hành chính bị hủy bỏ đồng nghĩa với việc xóa bỏ nội dung thông tin về thủ tục hành chính đã được đưa vào Cơ sở dữ liệu quốc gia về thủ tục hành chính. Quyết định công bố này phải xác định rõ tên thủ tục hành chính bị hủy bỏ hoặc bãi bỏ; trường hợp thủ tục hành chính đã được đăng tải trên Cơ sở dữ liệu quốc gia về thủ tục hành chính, quyết định phải ghi rõ số, ký hiệu của hồ sơ thủ tục hành chính; văn bản quy phạm pháp luật có quy định việc hủy bỏ hoặc bãi bỏ thủ tục hành chính (Theo Điều 15 Khoản 3).",
+    "latency": 2.961974999998347,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Đơn vị nào trực thuộc Bộ Tư pháp chủ trì, phối hợp với Cục Kiểm soát TTHC để đảm bảo hạ tầng kết nối, tích hợp CSDL quốc gia với cổng thông tin các bộ, ngành và đảm bảo an ninh mạng?",
+    "agent_response": "Cục Công nghệ thông tin chủ trì, phối hợp với Cục Kiểm soát thủ tục hành chính và các đơn vị có liên quan thực hiện quy định tại Khoản 5, 6 và 7 Điều 11 của Thông tư này.",
+    "latency": 1.3055509000005259,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Mức phạt tiền cụ thể áp dụng đối với công chức, viên chức làm lộ tài khoản đăng nhập Cơ sở dữ liệu quốc gia là bao nhiêu theo Thông tư 19/2014/TT-BTP?",
+    "agent_response": "Thông tin không có trong tài liệu được cung cấp.",
+    "latency": 0.823343299998669,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 2,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Chu kỳ rà soát thủ tục hành chính nội bộ của các doanh nghiệp tư nhân nước ngoài tại Việt Nam được thực hiện mấy năm một lần theo Nghị định 63/2010/NĐ-CP?",
+    "agent_response": "Thông tin không có trong tài liệu được cung cấp.",
+    "latency": 0.8478414999990491,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 2,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Người dân có thể lên Cổng thông tin Cục Kiểm soát TTHC đăng ký cấp tài khoản đăng nhập hệ thống để tự tải hồ sơ cá nhân như thế nào?",
+    "agent_response": "Thông tin không có trong tài liệu được cung cấp.",
+    "latency": 0.8400160000019241,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 2,
+        "gpt-4o-judge": 1
+      }
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Khi Cơ quan kiểm soát thủ tục hành chính trực thuộc Bộ Tài chính phát hiện sai phạm quy định về thủ tục hành chính thì phải báo cáo ngay cho cơ quan nào?",
+    "agent_response": "Thông tin không có trong tài liệu được cung cấp.",
+    "latency": 0.8483802000009746,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 2,
+        "gpt-4o-judge": 1
+      }
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Nghị định 63/2010/NĐ-CP quy định chi tiết hồ sơ đối với thủ tục xử lý vi phạm nồng độ cồn trong giao thông bao gồm những loại giấy tờ gì?",
+    "agent_response": "Thông tin không có trong tài liệu được cung cấp.",
+    "latency": 1.2981072000002314,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 2,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Trong trường hợp đặc biệt Cơ sở dữ liệu quốc gia gặp sự cố cần sửa chữa hoặc nâng cấp dẫn đến phải tạm ngưng, cơ quan quản lý phải thực hiện nghĩa vụ gì?",
+    "agent_response": "Theo Điều 11 Khoản 7, trong trường hợp Cơ sở dữ liệu quốc gia được sửa chữa, khắc phục các sự cố hoặc nâng cấp, cần thông báo về việc tạm ngưng hoạt động của Cơ sở dữ liệu quốc gia.",
+    "latency": 1.844595799997478,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 2
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Nếu một TTHC do Thủ tướng ban hành có đi kèm các yêu cầu, điều kiện đặc thù thể hiện dưới dạng quy chuẩn kỹ thuật, thì những quy chuẩn này phải do ai quy định tại văn bản nào?",
+    "agent_response": "Theo Điều 8 Khoản 3, quy chuẩn kỹ thuật phải được quy định trong văn bản quy phạm pháp luật thuộc thẩm quyền ban hành của Bộ trưởng, Thủ trưởng cơ quan ngang bộ.",
+    "latency": 1.4724138000019593,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 5
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Trong trường hợp nào cán bộ thực hiện thủ tục hành chính được phép tiết lộ thông tin bí mật kinh doanh hoặc cá nhân của người dân nộp hồ sơ?",
+    "agent_response": "Cán bộ thực hiện thủ tục hành chính chỉ được phép tiết lộ thông tin bí mật kinh doanh hoặc cá nhân của người dân nộp hồ sơ khi có sự đồng ý bằng văn bản của đối tượng thực hiện thủ tục hành chính hoặc pháp luật có quy định khác. (Theo Điều 6 Khoản 1a).",
+    "latency": 4.803300399998989,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 4,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  },
+  {
+    "test_case": "Người khuyết tật hoặc người mang thai gặp khó khăn không thể trực tiếp đến nộp hồ sơ thực hiện TTHC thì có cách nào thực hiện hợp lệ không?",
+    "agent_response": "Thông tin không có trong tài liệu được cung cấp.",
+    "latency": 1.3332902000001923,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 1,
+        "gpt-4o-judge": 1
+      }
+    },
+    "status": "fail"
+  },
+  {
+    "test_case": "Nếu một người dân nộp mẫu đơn tải từ Cơ sở dữ liệu quốc gia nhưng bị cán bộ từ chối với lý do mẫu đơn này không phải giấy in trực tiếp từ phường, cán bộ đó đúng hay sai?",
+    "agent_response": "Cán bộ đó sai. Theo Điều 18 Khoản 6, cán bộ, công chức không được tự đặt ra thủ tục hành chính, hồ sơ, giấy tờ ngoài quy định của pháp luật. Mẫu đơn tải từ Cơ sở dữ liệu quốc gia về thủ tục hành chính có giá trị ngang bằng với mẫu đơn do cơ quan thực hiện thủ tục hành chính cung cấp trực tiếp (Điều 25).",
+    "latency": 1.8718757999995432,
+    "ragas": {
+      "faithfulness": 0.9,
+      "relevancy": 0.8,
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 0.5
+      }
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.8,
+      "individual_scores": {
+        "gpt-4o-mini-judge": 5,
+        "gpt-4o-judge": 4
+      }
+    },
+    "status": "pass"
+  }
+]

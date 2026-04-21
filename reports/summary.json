@@ -1,0 +1,31 @@
+{
+  "v1": {
+    "metadata": {
+      "version": "Agent_V1_Base",
+      "total": 50,
+      "passed": 30,
+      "failed": 20,
+      "timestamp": "2026-04-21 17:40:01"
+    },
+    "metrics": {
+      "avg_score": 3.1,
+      "hit_rate": 1.0,
+      "agreement_rate": 0.9339999999999997
+    }
+  },
+  "v2": {
+    "metadata": {
+      "version": "Agent_V2_Optimized",
+      "total": 50,
+      "passed": 46,
+      "failed": 4,
+      "timestamp": "2026-04-21 17:43:26"
+    },
+    "metrics": {
+      "avg_score": 4.02,
+      "hit_rate": 1.0,
+      "agreement_rate": 0.8659999999999998
+    }
+  },
+  "delta": 0.92
+}
